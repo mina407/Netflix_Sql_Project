@@ -8,11 +8,14 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 * List and analyze content based on release years, countries, and durations.
 * Explore and categorize content based on specific criteria and keywords.
 * ## Findings and Conclusion
+
 -- Count the number of movies vs tv shows  
+```sql
 select 
 	type , count(*) as total_number 
 from netflix 
 group by type ;
+```
 
 -- Find the most commen rating for movies and tv show 
 with cte as 
