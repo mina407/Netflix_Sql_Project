@@ -9,8 +9,8 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 * Explore and categorize content based on specific criteria and keywords.
 * ## Business Problems and Solutions
 
--- Count the number of movies vs tv shows  
 ```sql
+-- Count the number of movies vs tv shows
 select 
 	type , count(*) as total_number 
 from netflix 
