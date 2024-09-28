@@ -147,7 +147,7 @@ order by Num_of_appearing desc
 limit 10 ;
 
 ```sql
--- Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
+Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
 with cte as( 
 			select * , 
 				case 
